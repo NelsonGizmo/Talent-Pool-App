@@ -3,15 +3,12 @@
   padding: 0px;
   box-sizing: border-box;
   font-weight: 200;
-  font-family: nunitoSemiBold;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.08rem;
 }
 
-@font-face {
-  font-family: nunitoSemiBold;
-  src: url(../fonts/NunitoSans-SemiBold.ttf);
-}
 body {
-  background-color: rgb(177, 176, 176);
+  background-color: rgb(209, 208, 208);
 }
 body h2 {
   font-size: 1.8rem;
@@ -30,9 +27,9 @@ body .nav-container {
   padding: 10px 75px;
   border: 1px solid white;
   background-color: white;
-  position: -webkit-sticky;
-  position: sticky;
-  z-index: 99;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  z-index: 1;
   align-items: center;
 }
 body .nav-container .nav-child1 {
@@ -120,12 +117,12 @@ body .main-container .btn2:hover {
 }
 body .main-container .card1 {
   position: relative;
-  left: 366px;
+  left: 380px;
   bottom: 50px;
   padding-bottom: 5px;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   width: 206px;
-  height: 250px;
+  height: 265px;
   text-align: center;
   border: 1px solid white;
   background-color: white;
@@ -142,9 +139,9 @@ body .main-container .card-container {
   padding-top: 140px;
 }
 body .main-container .card-container .card2 {
-  font-size: 0.9rem;
+  font-size: 1rem;
   width: 206px;
-  height: 250px;
+  height: 265px;
   text-align: center;
   border: 1px solid white;
   background-color: white;
@@ -155,8 +152,9 @@ body .main-container .card-container .card2:hover {
   box-shadow: 1px 1px 30px 4px;
 }
 body .main-container .card-container .card3 {
-  font-size: 0.9rem;
+  font-size: 1rem;
   width: 206px;
+  height: 265px;
   text-align: center;
   border: 1px solid white;
   background-color: white;
@@ -167,7 +165,7 @@ body .main-container .card-container .card3:hover {
   box-shadow: 1px 1px 30px 4px;
 }
 
-footer {
+.icon-line {
   display: flex;
   font-size: 0.9rem;
   justify-content: space-between;
