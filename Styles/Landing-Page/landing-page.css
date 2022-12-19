@@ -25,12 +25,12 @@ body .nav-container {
   display: flex;
   justify-content: space-between;
   padding: 10px 75px;
-  border: 1px solid white;
-  background-color: white;
-  position: -webkit-sticky !important;
-  position: sticky !important;
-  z-index: 1;
+  border: 1px solid rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+  position: fixed !important;
+  z-index: 99;
   align-items: center;
+  width: 100%;
 }
 body .nav-container .nav-child1 {
   width: 500px;
@@ -58,6 +58,7 @@ body .nav-container .nav-child2 .btn1 {
   background-color: rgba(255, 255, 255, 0.877);
   color: rgb(0, 169, 236) !important;
   width: 90px;
+  margin-left: 19px;
   height: 35px;
   font-weight: bolder;
   font-size: 1.2rem;
@@ -79,6 +80,7 @@ body .nav-container .nav-child2 .btn2 {
   width: 90px;
   text-align: center;
   cursor: pointer;
+  margin-left: 10px;
   border: 1px solid rgb(0, 169, 236);
   height: 35px;
   border-radius: 5px;
@@ -92,8 +94,8 @@ body .nav-container .nav-child2 .btn2:hover {
 }
 body .main-container {
   display: flex;
-  margin: 5.5px 50px;
-  padding: 57px 20px;
+  margin: 2px 50px;
+  padding: 90px 27px;
   position: relative;
   top: 20px;
 }
@@ -118,7 +120,7 @@ body .main-container .btn2:hover {
 body .main-container .card1 {
   position: relative;
   left: 380px;
-  bottom: 50px;
+  bottom: 10px;
   padding-bottom: 5px;
   font-size: 1.2rem;
   width: 206px;
@@ -136,7 +138,7 @@ body .main-container .card-container {
   display: flex;
   justify-content: space-evenly;
   width: 600px;
-  padding-top: 140px;
+  padding-top: 190px;
 }
 body .main-container .card-container .card2 {
   font-size: 1rem;
@@ -164,8 +166,7 @@ body .main-container .card-container .card3:hover {
   transition: all 0.8s ease-in-out;
   box-shadow: 1px 1px 30px 4px;
 }
-
-.icon-line {
+body .icon-line {
   display: flex;
   font-size: 0.9rem;
   justify-content: space-between;
@@ -174,4 +175,56 @@ body .main-container .card-container .card3:hover {
   border: 1px solid white;
   background-color: white;
   align-items: center;
+}
+body .testimonial-container {
+  align-items: center;
+  margin: 50px 90px;
+  text-align: center;
+}
+body .testimonial-container .testimonials {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
+}
+body .testimonial-container .testimonials .t-1 {
+  border: 1px solid white;
+  background-color: white;
+  width: 320px;
+  text-align: center;
+  padding: 15px 15px;
+  border-radius: 5px;
+}
+body .testimonial-container .testimonials .t-1:hover {
+  transition: all 0.8s ease-in-out;
+  box-shadow: 1px 1px 30px 4px;
+}
+body .testimonial-container .testimonials .t-2 {
+  border: 1px solid white;
+  background-color: white;
+  width: 320px;
+  text-align: center;
+  padding: 15px 15px;
+  border-radius: 5px;
+}
+body .testimonial-container .testimonials .t-2 .img {
+  padding-top: 66px;
+}
+body .testimonial-container .testimonials .t-2:hover {
+  transition: all 0.8s ease-in-out;
+  box-shadow: 1px 1px 30px 4px;
+}
+body .testimonial-container .testimonials .t-3 {
+  border: 1px solid white;
+  background-color: white;
+  width: 320px;
+  text-align: center;
+  padding: 15px 15px;
+  border-radius: 5px;
+}
+body .testimonial-container .testimonials .t-3 .img {
+  padding-top: 66px;
+}
+body .testimonial-container .testimonials .t-3:hover {
+  transition: all 0.8s ease-in-out;
+  box-shadow: 1px 1px 30px 4px;
 }/*# sourceMappingURL=landing-page.css.map */
