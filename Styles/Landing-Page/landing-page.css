@@ -26,7 +26,7 @@ body .nav-container {
   justify-content: space-between;
   padding: 10px 75px;
   border: 1px solid rgba(255, 255, 255, 0);
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0.24);
   position: fixed !important;
   z-index: 99;
   align-items: center;
@@ -245,4 +245,114 @@ body .testimonial-container .btn2:hover {
   background-color: white;
   color: rgb(0, 169, 236) !important;
   transition: all 0.5s ease-in-out;
+}
+body .section-1 {
+  background-color: white;
+}
+body .section-1 .m-t-container {
+  padding: 70px 90px;
+  text-align: center;
+}
+body .section-1 .m-t-container h2 {
+  padding-bottom: 20px;
+}
+body .section-1 .m-t-container .m-links {
+  padding-left: 35px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+body .section-1 .m-t-container .m-links a {
+  text-decoration: none;
+  color: black;
+}
+body .section-1 .m-t-container .m-links a:hover {
+  color: rgb(0, 169, 236);
+  transition: all 0.5s ease-in-out;
+}
+body .section-1 .m-t-container .m-cards {
+  display: flex;
+  justify-content: space-between;
+}
+body .section-1 .m-t-container .m-cards .m-card-1 {
+  background-color: rgb(236, 235, 235);
+  width: 374px;
+  border-radius: 5px;
+}
+body .section-1 .m-t-container .m-cards .m-card-1 .m-btn {
+  background-color: rgb(0, 169, 236);
+  color: white !important;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid rgb(0, 169, 236);
+  padding: 10px 10px;
+  border-radius: 0px 0px 5px 5px;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+body .section-1 .m-t-container .m-cards .m-card-1 .m-btn a {
+  text-decoration: none;
+}
+body .section-1 .m-t-container .m-cards .m-card-1 .m-btn:hover {
+  background-color: white;
+  color: rgb(0, 169, 236) !important;
+  transition: all 0.5s ease-in-out;
+}
+body .section-1 .m-t-container .m-cards .m-card-1:hover {
+  transition: all 0.8s ease-in-out;
+  box-shadow: 1px 1px 30px 4px;
+}
+body .section-1 .m-t-container .m-cards .m-card-2 {
+  background-color: rgb(236, 235, 235);
+  width: 374px;
+}
+body .section-1 .m-t-container .m-cards .m-card-2 .m-btn {
+  background-color: rgb(0, 169, 236);
+  color: white !important;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid rgb(0, 169, 236);
+  padding: 10px 10px;
+  border-radius: 0px 0px 5px 5px;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+body .section-1 .m-t-container .m-cards .m-card-2 .m-btn a {
+  text-decoration: none;
+}
+body .section-1 .m-t-container .m-cards .m-card-2 .m-btn:hover {
+  background-color: white;
+  color: rgb(0, 169, 236) !important;
+  transition: all 0.5s ease-in-out;
+}
+body .section-1 .m-t-container .m-cards .m-card-2:hover {
+  transition: all 0.8s ease-in-out;
+  box-shadow: 1px 1px 30px 4px;
+}
+body .section-1 .m-t-container .m-cards .m-card-3 {
+  background-color: rgb(236, 235, 235);
+  width: 374px;
+}
+body .section-1 .m-t-container .m-cards .m-card-3 .m-btn {
+  background-color: rgb(0, 169, 236);
+  color: white !important;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid rgb(0, 169, 236);
+  padding: 10px 10px;
+  border-radius: 0px 0px 5px 5px;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+body .section-1 .m-t-container .m-cards .m-card-3 .m-btn a {
+  text-decoration: none;
+}
+body .section-1 .m-t-container .m-cards .m-card-3 .m-btn:hover {
+  background-color: white;
+  color: rgb(0, 169, 236) !important;
+  transition: all 0.5s ease-in-out;
+}
+body .section-1 .m-t-container .m-cards .m-card-3:hover {
+  transition: all 0.8s ease-in-out;
+  box-shadow: 1px 1px 30px 4px;
 }/*# sourceMappingURL=landing-page.css.map */
